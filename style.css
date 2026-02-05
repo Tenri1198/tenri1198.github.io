@@ -265,7 +265,7 @@ ul, ol {
 .about__image-wrapper {
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .about__image {
@@ -430,7 +430,6 @@ ul, ol {
 .research__video {
     width: 100%;
     border-radius: var(--border-radius);
-    margin-top: 16px;
     background-color: #000;
 }
 
@@ -552,12 +551,13 @@ ul, ol {
 
 .award {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 8px;
+    grid-template-columns: 50px 100px 1fr auto;
+    gap: 16px;
     padding: 20px;
     background-color: var(--color-bg);
     border-radius: var(--border-radius);
     border-left: 3px solid var(--color-accent);
+    align-items: center;
 }
 
 .award__number {
@@ -583,6 +583,7 @@ ul, ol {
     font-size: 0.85rem;
     color: var(--color-accent);
     text-decoration: underline;
+    white-space: nowrap;
 }
 
 .projects__list {
@@ -907,8 +908,20 @@ ul, ol {
 
     /* Awards */
     .award {
-        grid-template-columns: 1fr;
-        gap: 4px;
+        grid-template-columns: 50px 1fr;
+        gap: 8px;
+    }
+
+    .award__period {
+        grid-column: 2;
+    }
+
+    .award__name {
+        grid-column: 1 / -1;
+    }
+
+    .award__link {
+        grid-column: 1 / -1;
     }
 
     /* Presentations */

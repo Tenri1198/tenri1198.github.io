@@ -29,7 +29,7 @@ GitHub Pages用の学術プロフィールページを作成するプロジェ�
 - 大規模数値シミュレーション
 - 微惑星から惑星への形成過程
 - スーパーコンピュータ「富岳」
-- N体シミュレーション
+- *N*体シミュレーション
 - Planetesimal-driven migration
 - ペブル集積
 
@@ -58,10 +58,10 @@ GitHub Pages用の学術プロフィールページを作成するプロジェ�
 ### 研究テーマ
 **大規模数値シミュレーションで探る惑星系の多様性とその起源**
 
-近年のコンピュータの大規模化と共に、数値シミュレーションで天文学の問題を扱うシミュレーション天文学が急速に発展してきました。その中で、私は「コンピュータシミュレーションを駆使して、惑星形成過程を解明すること」を大目標に研究を行っています。特に、スーパーコンピュータ「富岳」による大規模並列 N 体（多体）シミュレーションを用いて微惑星（数kmから百kmサイズの小天体）からの惑星形成過程を調べています。
+近年のコンピュータの大規模化と共に、数値シミュレーションで天文学の問題を扱うシミュレーション天文学が急速に発展してきました。その中で、私は「コンピュータシミュレーションを駆使して、惑星形成過程を解明すること」を大目標に研究を行っています。特に、スーパーコンピュータ「富岳」による大規模並列 *N* 体（多体）シミュレーションを用いて微惑星（数kmから百kmサイズの小天体）からの惑星形成過程を調べています。
 
 ### 修士学位論文
-**「動径方向に構造を持つ原始惑星系円盤でのペブル集積を考慮した惑星系形成N体シミュレーション」**
+**「動径方向に構造を持つ原始惑星系円盤でのペブル集積を考慮した惑星系形成*N*体シミュレーション」**
 
 近年の原始惑星系円盤の観測結果から惑星形成理論の基礎、Jinno et al., 2023 [2] の内容までをまとめた資料（全135ページ）
 
@@ -74,22 +74,27 @@ GitHub Pages用の学術プロフィールページを作成するプロジェ�
 ### 査読付き論文 (Refereed) - 全て筆頭著者
 
 1. **Tenri Jinno**, Takayuki R. Saitoh, Yoko Funato, Junichiro Makino
-   "Self-consistent N-body simulation of planetesimal-driven migration. I. The trajectories of single planets in the uniform background"
+   "Self-consistent *N*-body simulation of planetesimal-driven migration. II. The effect of PDM on planet formation from a planetesimal disk"
+   *Publications of the Astronomical Society of Japan* (2026) [Accepted]
+   DOI: [10.48550/arXiv.2601.20348](https://doi.org/10.48550/arXiv.2601.20348)
+
+2. **Tenri Jinno**, Takayuki R. Saitoh, Yoko Funato, Junichiro Makino
+   "Self-consistent *N*-body simulation of planetesimal-driven migration. I. The trajectories of single planets in the uniform background"
    *Publications of the Astronomical Society of Japan*, Volume 76, No. 6 (2024)
    DOI: [10.1093/pasj/psae090](https://doi.org/10.1093/pasj/psae090)
 
-2. **Tenri Jinno**, Takayuki R. Saitoh, Yota Ishigaki, Junichiro Makino
-   "N-body simulation of planetary formation through pebble accretion in a radially structured protoplanetary disk"
+3. **Tenri Jinno**, Takayuki R. Saitoh, Yota Ishigaki, Junichiro Makino
+   "*N*-body simulation of planetary formation through pebble accretion in a radially structured protoplanetary disk"
    *Publications of the Astronomical Society of Japan*, Volume 75, No. 5, pp.951-969 (2023)
    DOI: [10.1093/pasj/psad053](https://doi.org/10.1093/pasj/psad053)
 
-3. **Tenri Jinno**, Takayuki R. Saitoh, Yota Ishigaki, Junichiro Makino
-   "N-body simulation of planet formation with the inner dead-zone boundary of protoplanetary disk"
+4. **Tenri Jinno**, Takayuki R. Saitoh, Yota Ishigaki, Junichiro Makino
+   "*N*-body simulation of planet formation with the inner dead-zone boundary of protoplanetary disk"
    *34th IUPAP Conference on Computational Physics (CCP)* (2023) [Accepted]
 
 ### 査読なし
 
-4. 関口瑞希, 石﨑梨理, 菖蒲迫健介, **神野天里**, 米谷珠萌, 吉田有宏, 于賢洋
+5. 関口瑞希, 石﨑梨理, 菖蒲迫健介, **神野天里**, 米谷珠萌, 吉田有宏, 于賢洋
    「惑星科学若手研究会2024開催報告」
    *日本惑星科学会遊星人* 33巻 3号 (2024)
    DOI: [10.14909/yuseijin.33.3_356](https://doi.org/10.14909/yuseijin.33.3_356)
@@ -102,15 +107,15 @@ GitHub Pages用の学術プロフィールページを作成するプロジェ�
 
 | # | 期間 | プロジェクト名 | 資金源 | リンク |
 |---|------|---------------|--------|--------|
-| 5 | 2025年4月〜2026年3月 | 惑星移動を考慮した微惑星からの統一的な大規模惑星形成N体シミュレーション | 令和7年度「富岳」若手課題代表 | [採択一覧](https://www.hpci-office.jp/application/files/3017/3974/7242/adoptionlist2025_12.pdf) |
-| 6 | 2024年4月〜2025年3月 | 大規模惑星形成N体計算：惑星形成過程への Planetesimal-Driven Migration による惑星移動の効果 | 令和6年度「富岳」若手課題代表 | [採択一覧](https://www.hpci-office.jp/application/files/6817/0804/0762/adoptionlist2024_12.pdf) |
+| 5 | 2025年4月〜2026年3月 | 惑星移動を考慮した微惑星からの統一的な大規模惑星形成*N*体シミュレーション | 令和7年度「富岳」若手課題代表 | [採択一覧](https://www.hpci-office.jp/application/files/3017/3974/7242/adoptionlist2025_12.pdf) |
+| 6 | 2024年4月〜2025年3月 | 大規模惑星形成*N*体計算：惑星形成過程への Planetesimal-Driven Migration による惑星移動の効果 | 令和6年度「富岳」若手課題代表 | [採択一覧](https://www.hpci-office.jp/application/files/6817/0804/0762/adoptionlist2024_12.pdf) |
 | 7 | 2025年4月〜2027年3月 | 大規模数値シミュレーションで探る惑星系の多様性とその起源 | 特別研究員-DC2 | [KAKEN](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-25KJ1814/) |
 
 ### 受賞歴
 
 | # | 年月 | 受賞名 | リンク |
 |---|------|--------|--------|
-| 8 | 2024年9月 | 日本惑星科学会2024年度最優秀発表賞「大規模惑星形成N体シミュレーションで探る氷惑星の起源」 | [詳細](https://www.wakusei.jp/news/prize/bestpr-2024/review-presen.html) |
+| 8 | 2024年9月 | 日本惑星科学会2024年度最優秀発表賞「大規模惑星形成*N*体シミュレーションで探る氷惑星の起源」 | [詳細](https://www.wakusei.jp/news/prize/bestpr-2024/review-presen.html) |
 | 9 | 2023年8月 | 第53回 天文・天体物理若手夏の学校 星間現象/星・惑星形成分科会オーラルアワード第一位 | [詳細](https://astro-wakate.sakura.ne.jp/ss2023/award/index.html) |
 | 10 | 2024年7月 | 国際ハイパフォーマンスコンピューティングサマースクール2024 日本選抜 | - |
 | 11 | 2023年11月 | 令和5年度第12回サイエンスフロンティア研究発表会 優秀発表賞「コンピュータの中の惑星：シミュレーションで探る惑星の起源と進化」 | [詳細](http://www.sci.kobe-u.ac.jp/news/2023/231102.html) |
