@@ -104,14 +104,14 @@ GitHub Pages用の学術プロフィールページを作成するプロジェ�
 |---|------|---------------|--------|--------|
 | 5 | 2025年4月〜2026年3月 | 惑星移動を考慮した微惑星からの統一的な大規模惑星形成N体シミュレーション | 令和7年度「富岳」若手課題代表 | [採択一覧](https://www.hpci-office.jp/application/files/3017/3974/7242/adoptionlist2025_12.pdf) |
 | 6 | 2024年4月〜2025年3月 | 大規模惑星形成N体計算：惑星形成過程への Planetesimal-Driven Migration による惑星移動の効果 | 令和6年度「富岳」若手課題代表 | [採択一覧](https://www.hpci-office.jp/application/files/6817/0804/0762/adoptionlist2024_12.pdf) |
-| 9 | 2025年4月〜2027年3月 | 大規模数値シミュレーションで探る惑星系の多様性とその起源 | 特別研究員-DC2 | [KAKEN](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-25KJ1814/) |
+| 7 | 2025年4月〜2027年3月 | 大規模数値シミュレーションで探る惑星系の多様性とその起源 | 特別研究員-DC2 | [KAKEN](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-25KJ1814/) |
 
 ### 受賞歴
 
 | # | 年月 | 受賞名 | リンク |
 |---|------|--------|--------|
-| 7 | 2024年9月 | 日本惑星科学会2024年度最優秀発表賞「大規模惑星形成N体シミュレーションで探る氷惑星の起源」 | [詳細](https://www.wakusei.jp/news/prize/bestpr-2024/review-presen.html) |
-| 8 | 2023年8月 | 第53回 天文・天体物理若手夏の学校 星間現象/星・惑星形成分科会オーラルアワード第一位 | [詳細](https://astro-wakate.sakura.ne.jp/ss2023/award/index.html) |
+| 8 | 2024年9月 | 日本惑星科学会2024年度最優秀発表賞「大規模惑星形成N体シミュレーションで探る氷惑星の起源」 | [詳細](https://www.wakusei.jp/news/prize/bestpr-2024/review-presen.html) |
+| 9 | 2023年8月 | 第53回 天文・天体物理若手夏の学校 星間現象/星・惑星形成分科会オーラルアワード第一位 | [詳細](https://astro-wakate.sakura.ne.jp/ss2023/award/index.html) |
 | 10 | 2024年7月 | 国際ハイパフォーマンスコンピューティングサマースクール2024 日本選抜 | - |
 | 11 | 2023年11月 | 令和5年度第12回サイエンスフロンティア研究発表会 優秀発表賞「コンピュータの中の惑星：シミュレーションで探る惑星の起源と進化」 | [詳細](http://www.sci.kobe-u.ac.jp/news/2023/231102.html) |
 | 12 | 2024年 | 令和6年度第13回サイエンスフロンティア研究発表会 優秀発表賞「『富岳』で惑星を作る：大規模数値シミュレーションで探る惑星の起源と進化」 | - |
@@ -125,28 +125,28 @@ GitHub Pages用の学術プロフィールページを作成するプロジェ�
 
 | 日付 | タイトル | 著者 | 学会名・場所 | 形式 |
 |------|---------|------|-------------|------|
-| 2025/12/9 | The effect of planetesimal-driven migration on planet formation from planetesimals | Tenri Jinno, Takayuki R. Saitoh, Yoko Funato, Junichiro Makino | International Conference on Exoplanets and Planet Formation 2025 (Shanghai, China) | 口頭 |
-| 2025/9/11 | Global N-body simulation of planetary formation: The origins of ice giants | Tenri Jinno, Takayuki R. Saitoh, Yoko Funato, Junichiro Makino | EPSC-DPS Joint Meeting 2025 (Finlandia Hall Helsinki, Finland) | 口頭 |
+| 2025/12/9 | The effect of planetesimal-driven migration on planet formation from planetesimals | Tenri Jinno, Takayuki R. Saitoh, Yoko Funato, Junichiro Makino | International Conference on Exoplanets and Planet Formation 2025 (Shanghai, China) | ポスター |
+| 2025/9/11 | Global N-body simulation of planetary formation: The origins of ice giants | Tenri Jinno, Takayuki R. Saitoh, Yoko Funato, Junichiro Makino | EPSC-DPS Joint Meeting 2025 (Finlandia Hall Helsinki, Finland) | ポスター |
 | 2025/4/26 | Global N-body Simulation of Planetary Formation: The Origins of Ice Giants | Tenri Jinno | International STEAM Symposium for Young Researchers 2025 | **招待講演** |
-| 2024/7/8 | Global N-body simulation of planet formation: The effects of planetesimal-driven migration on planetary formation process | Tenri Jinno, Takayuki R. Saitoh, Yoko Funato, Junichiro Makino | International HPC Summer School 2024 | 口頭 |
-| 2023/8/5 | N-body simulation of planetary formation through pebble accretion in a radially structured protoplanetary disk | 神野天里 | 34th IUPAP Conference on Computational Physics | 口頭 |
+| 2024/7/8 | Global N-body simulation of planet formation: The effects of planetesimal-driven migration on planetary formation process | Tenri Jinno, Takayuki R. Saitoh, Yoko Funato, Junichiro Makino | International HPC Summer School 2024 | ポスター |
+| 2023/8/5 | N-body simulation of planetary formation through pebble accretion in a radially structured protoplanetary disk | 神野天里 | 34th IUPAP Conference on Computational Physics | ポスター |
 
 ### 国内学会 (Domestic)
 
 | 日付 | タイトル | 著者 | 学会名 | 形式 |
 |------|---------|------|--------|------|
-| 2025/10/24 | 大規模惑星形成N体計算：惑星形成過程への Planetesimal-Driven Migration による惑星移動の効果 | 神野天里, 斎藤貴之, 船渡陽子, 牧野淳一郎 | 第12回「富岳」を中核とするHPCIシステム利用研究課題成果報告会 | 口頭 |
+| 2025/10/24 | 大規模惑星形成N体計算：惑星形成過程への Planetesimal-Driven Migration による惑星移動の効果 | 神野天里, 斎藤貴之, 船渡陽子, 牧野淳一郎 | 第12回「富岳」を中核とするHPCIシステム利用研究課題成果報告会 | ポスター |
 | 2025/5/27 | 微惑星円盤からの統一的な惑星形成 N体シミュレーション： 惑星移動を考慮したダイナミックな惑星形成シナリオ | 神野天里, 斎藤貴之, 船渡陽子, 牧野淳一郎 | 日本地球惑星科学連合 2025年大会 | 口頭 |
 | 2025/3/17 | 微惑星円盤からの惑星形成過程における planetesimal-driven migration の効果 | 神野天里, 斎藤貴之, 船渡陽子, 牧野淳一郎 | 日本天文学会 2025年春季年会 | 口頭 |
 | 2025/3/12 | 大規模惑星形成N体シミュレーション：惑星移動を考慮したダイナミックな惑星形成の描像 | 神野天里, 斎藤貴之, 船渡陽子, 牧野淳一郎 | 惑星形成討論会2025 | 口頭 |
 | 2024/9/24 | 大規模惑星形成N体シミュレーションで探る氷惑星の起源 | 神野天里, 斎藤貴之, 船渡陽子, 牧野淳一郎 | 日本惑星科学会 2024年秋季講演会 | 口頭 |
-| 2024/7/24 | 大規模N体シミュレーション：微惑星散乱による惑星移動が惑星形成過程に及ぼす効果の検証 | 神野天里, 斎藤貴之, 船渡陽子, 牧野淳一郎 | 第54回天文・天体物理若手夏の学校 | 口頭 |
+| 2024/7/24 | 大規模N体シミュレーション：微惑星散乱による惑星移動が惑星形成過程に及ぼす効果の検証 | 神野天里, 斎藤貴之, 船渡陽子, 牧野淳一郎 | 第54回天文・天体物理若手夏の学校 | ポスター |
 | 2024/5/29 | 大規模惑星系N体シミュレーション：Planetesimal-Driven Migration による原始惑星の外向き移動 | 神野天里 | 日本地球惑星科学連合 2024年大会 | 口頭 |
 | 2024/3/13 | 大規模 N 体計算によるplanetesimal-driven migrationが惑星形成過程に及ぼす効果の検証 | 神野天里 | 日本天文学会 2024年春季年会 | 口頭 |
-| 2024/3/12 | 自己無撞着な大規模N体シミュレーションによる planetesimal-driven migration が惑星形成過程に及ぼす効果の検証 | 神野天里 | 第3回「富岳」成果創出加速プログラム研究交流会 | 口頭 |
+| 2024/3/12 | 自己無撞着な大規模N体シミュレーションによる planetesimal-driven migration が惑星形成過程に及ぼす効果の検証 | 神野天里 | 第3回「富岳」成果創出加速プログラム研究交流会 | ポスター |
 | 2023/9/20 | 衝突破壊プロセスとペブル集積を考慮した標準降着円盤からの検討に基づく惑星形成 N 体シミュレーション | 神野天里 | 日本天文学会 2023年秋季年会 | 口頭 |
 | 2023/8/1 | 動径方向に構造を持つ原始惑星系円盤におけるペブル集積と衝突破壊を考慮した惑星形成 N 体シミュレーション | 神野天里 | 第53回天文・天体物理若手夏の学校 | 口頭 |
-| 2023/5/26 | 動径方向に構造を持つ原始惑星系円盤におけるペブル集積を考慮した惑星形成 N 体シミュレーション | 神野天里 | 日本地球惑星科学連合 2023年大会 | 口頭 |
+| 2023/5/26 | 動径方向に構造を持つ原始惑星系円盤におけるペブル集積を考慮した惑星形成 N 体シミュレーション | 神野天里 | 日本地球惑星科学連合 2023年大会 | ポスター |
 | 2023/3/14 | 標準降着円盤の検討に基づくペブル集積を考慮した惑星系形成 N 体シミュレーション | 神野天里 | 日本天文学会 2023年春季年会 | 口頭 |
 
 ---
