@@ -432,6 +432,61 @@ ul, ol {
     background-color: #000;
 }
 
+.research__video-title {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--color-text);
+    margin-top: 12px;
+}
+
+.research__video-credit {
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    margin-top: 4px;
+}
+
+/* Thesis Card */
+.research__thesis {
+    margin-bottom: 48px;
+}
+
+.thesis-card {
+    background-color: var(--color-bg);
+    padding: 24px;
+    border-radius: var(--border-radius);
+    border-left: 3px solid var(--color-accent);
+}
+
+.thesis-card__title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 12px;
+}
+
+.thesis-card__description {
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.thesis-card__download {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--color-accent);
+    color: #ffffff;
+    border-radius: var(--border-radius);
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.thesis-card__download:hover {
+    background-color: var(--color-accent-light);
+    color: #ffffff;
+}
+
 /* ========================================
    Publications Section
    ======================================== */
@@ -471,6 +526,19 @@ ul, ol {
     font-style: italic;
 }
 
+.publication__doi {
+    font-size: 0.85rem;
+    margin-top: 8px;
+}
+
+.publication__doi a {
+    color: var(--color-accent);
+}
+
+.publications__list--nonrefereed .publication {
+    border-left-color: var(--color-text-light);
+}
+
 /* ========================================
    Awards Section
    ======================================== */
@@ -496,9 +564,22 @@ ul, ol {
     font-weight: 500;
 }
 
+.award__number {
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    font-weight: 600;
+}
+
 .award__name {
     font-size: 1rem;
     color: var(--color-text);
+    line-height: 1.5;
+}
+
+.award__link {
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-top: 4px;
 }
 
 .projects__list {
@@ -529,9 +610,21 @@ ul, ol {
     font-weight: 500;
 }
 
+.project__number {
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    font-weight: 600;
+}
+
 .project__funding {
     font-size: 0.9rem;
     color: var(--color-accent);
+}
+
+.project__link {
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    text-decoration: underline;
 }
 
 /* ========================================
@@ -573,11 +666,21 @@ ul, ol {
     font-weight: 500;
 }
 
+.presentation__content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.presentation__authors {
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+}
+
 .presentation__venue {
     font-size: 0.85rem;
     color: var(--color-text-light);
     margin-top: 4px;
-    display: block;
 }
 
 .presentation__type {
@@ -587,6 +690,12 @@ ul, ol {
     padding: 4px 12px;
     border-radius: 12px;
     white-space: nowrap;
+    align-self: start;
+}
+
+.presentation__type--invited {
+    background-color: var(--color-accent);
+    color: #ffffff;
 }
 
 /* ========================================
