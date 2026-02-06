@@ -244,6 +244,10 @@ ul, ol {
    ======================================== */
 .section {
     padding: var(--section-padding) 0;
+}
+
+/* Standalone pages (not inside #home) need min-height */
+.page.section {
     min-height: calc(100vh - var(--header-height));
 }
 

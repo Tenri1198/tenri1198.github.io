@@ -187,16 +187,22 @@ GitHub Pages用の学術プロフィールページを作成するプロジェ�
 ## ページ構成
 
 ### ナビゲーション動作
-- ナビメニュー（Home, About, Research, Publications, Awards, Presentations, Career, Contact）をクリックすると、該当セクションのみが表示される
-- 他のセクションは非表示になる（display: none）
-- 初期表示は Home（Hero）セクション
-- URLハッシュと連動（例: #about, #research）
+- ナビメニュー（Home, Publications, Awards, Presentations, Career, Contact）をクリックすると、該当ページのみが表示される
+- 他のページは非表示になる（display: none）
+- **Homeページ**: Hero + About + Research を含む（スクロールで閲覧）
+- 初期表示は Homeページ
+- URLハッシュと連動（例: #home, #publications）
 
 ### 1. ヘッダー/ナビゲーション
 - 固定ヘッダー（homepage2.png を背景に使用）
-- メニュー: Home, About, Research, Publications, Awards, Presentations, Career, Contact
+- メニュー: Home, Publications, Awards, Presentations, Career, Contact
 
-### 2. About / プロフィールセクション
+### 2. Home ページ（Hero + About + Research）
+#### Hero セクション
+- 背景画像（homepage2.png）
+- タイトル・肩書き
+
+#### About セクション
 - プロフィール写真（profile.jpg）
 - 名前（日英）
 - 所属・肩書き
