@@ -563,6 +563,22 @@ ul, ol {
     color: var(--color-accent);
 }
 
+.publication__pdf {
+    font-size: 0.85rem;
+    margin-top: 8px;
+}
+
+.publication__pdf-link {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.publication__pdf-link:hover {
+    color: var(--color-accent-light);
+    text-decoration: underline;
+}
+
 .publications__list--nonrefereed .publication {
     border-left-color: var(--color-text-light);
 }
