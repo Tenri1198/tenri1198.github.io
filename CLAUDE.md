@@ -176,6 +176,7 @@ GitHub Pages用の学術プロフィールページを作成するプロジェ�
   - 本文: "Source Sans 3", "Hiragino Sans", sans-serif
 - **特徴**:
   - 固定ヘッダーナビゲーション
+  - **タブ切り替え方式**: ナビメニューをクリックすると該当セクションのみ表示（シングルページスクロールではない）
   - セクション左に3pxボーダー
   - 角丸カード（8px）
   - 控えめなシャドウ
@@ -184,6 +185,12 @@ GitHub Pages用の学術プロフィールページを作成するプロジェ�
 ---
 
 ## ページ構成
+
+### ナビゲーション動作
+- ナビメニュー（Home, About, Research, Publications, Awards, Presentations, Career, Contact）をクリックすると、該当セクションのみが表示される
+- 他のセクションは非表示になる（display: none）
+- 初期表示は Home（Hero）セクション
+- URLハッシュと連動（例: #about, #research）
 
 ### 1. ヘッダー/ナビゲーション
 - 固定ヘッダー（homepage2.png を背景に使用）
