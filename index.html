@@ -534,6 +534,19 @@
         </section>
     </main>
 
+    <!-- Video Modal -->
+    <div id="videoModal" class="video-modal">
+        <div class="video-modal__overlay"></div>
+        <div class="video-modal__content">
+            <button class="video-modal__close" aria-label="閉じる">&times;</button>
+            <video id="modalVideo" class="video-modal__video" controls playsinline>
+                <source id="modalVideoSource" src="" type="video/mp4">
+                お使いのブラウザは動画タグをサポートしていません。
+            </video>
+            <p id="modalVideoTitle" class="video-modal__title"></p>
+        </div>
+    </div>
+
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -614,6 +627,57 @@
 
         window.addEventListener('hashchange', handleHashChange);
         window.addEventListener('DOMContentLoaded', handleHashChange);
+
+        // Video Modal
+        const videoModal = document.getElementById('videoModal');
+        const modalVideo = document.getElementById('modalVideo');
+        const modalVideoSource = document.getElementById('modalVideoSource');
+        const modalVideoTitle = document.getElementById('modalVideoTitle');
+        const modalClose = document.querySelector('.video-modal__close');
+        const researchVideos = document.querySelectorAll('.research__video');
+
+        // Open modal when clicking on a video
+        researchVideos.forEach(video => {
+            video.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                // Get video source and title
+                const videoSrc = this.querySelector('source').getAttribute('src');
+                const videoTitle = this.nextElementSibling.textContent;
+
+                // Set modal video source and title
+                modalVideoSource.setAttribute('src', videoSrc);
+                modalVideoTitle.textContent = videoTitle;
+                modalVideo.load();
+
+                // Show modal
+                videoModal.classList.add('video-modal--active');
+                document.body.style.overflow = 'hidden';
+
+                // Pause the original video
+                this.pause();
+            });
+        });
+
+        // Close modal
+        function closeVideoModal() {
+            videoModal.classList.remove('video-modal--active');
+            document.body.style.overflow = '';
+            modalVideo.pause();
+            modalVideoSource.setAttribute('src', '');
+        }
+
+        modalClose.addEventListener('click', closeVideoModal);
+
+        // Close when clicking overlay
+        document.querySelector('.video-modal__overlay').addEventListener('click', closeVideoModal);
+
+        // Close with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && videoModal.classList.contains('video-modal--active')) {
+                closeVideoModal();
+            }
+        });
     </script>
 </body>
 </html>
